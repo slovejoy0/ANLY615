@@ -6,7 +6,6 @@ Name: [Sheralee Lovejoy]
 
 # --- CONFIGURATION VARIABLES ---
 # We want to project where our career stands in the milestone year of 2030
-import pip
 
 
 PROJECTED_YEAR = 2030
