@@ -32,7 +32,7 @@ target_industry = input("What is your selected industry (e.g., Tech, Finance)? "
 # Hint: You must cast this input to an integer to do mathematical calculations!
 # Save this input as: cohort_year
 
-cohort_year = int(PROJECTED_YEAR) - 2
+cohort_year = int(PROJECTED_YEAR) - 4
 print(f"Cohort year is {cohort_year}")
 
 # TODO 4: Calculate the total years they will have been part of the Aggie network by 2030
