@@ -14,7 +14,7 @@ PROJECTED_YEAR = 2030
 # TODO 1: Print a welcoming header to the terminal
 # The header must display:
 # =========================================
-#       THE AGGIE NETWORK ONBOARDER      
+#       THE AGGIE NETWORK ONBOARDER
 # =========================================
 print("=========================================")
 print("      THE AGGIE NETWORK ONBOARDER      ")
@@ -26,7 +26,8 @@ print("=========================================")
 
 user_name = input("What is your full name? ").strip()
 prior_school = input("What is your undergraduate/prior university? ").strip()
-target_industry = input("What is your selected industry (e.g., Tech, Finance)? ").strip()
+target_industry = input(
+    "What is your selected industry (e.g., Tech, Finance)? ").strip()
 # TODO 3: Capture the year the user joined the Aggie Family (their TAMU graduate cohort start year)
 # Hint: You must cast this input to an integer to do mathematical calculations!
 # Save this input as: cohort_year
@@ -44,7 +45,7 @@ print(f"Network years is {network_years}")
 # Note the indentation of the fields to align them vertically.
 #
 # =========================================
-#            AGGIE NETWORK CARD           
+#            AGGIE NETWORK CARD
 # =========================================
 # Name:          [user_name]
 # Prior School:  [prior_school]
@@ -62,8 +63,4 @@ print(f"Prior School:  {prior_school}")
 print(f"Target Sector: {target_industry}")
 print(f"Cohort Year:   {cohort_year}")
 print(f"By {PROJECTED_YEAR}, you will have been an")
-print(f"Aggie for {network_years} proud years!")    
-
-
-
-
+print(f"Aggie for {network_years} proud years!")
