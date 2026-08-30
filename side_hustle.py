@@ -13,7 +13,7 @@ WORKING_WEEKS_PER_YEAR = 48
 # TODO 1: Print a professional business title header
 # The header must display:
 # =========================================
-#       FREELANCE ANALYST CALCULATOR      
+#       FREELANCE ANALYST CALCULATOR
 # =========================================
 
 print("=========================================")
@@ -34,12 +34,12 @@ savings_goal = float(input("What is your savings goal for the year? $"))
 # Use the math formulas outlined in the assignment brief to calculate:
 # weekly_revenue, annual_revenue, and weeks_to_goal
 
-weekly_revenue = int(hourly_rate * weekly_hours)
-print(f"Weekly revenue is ${weekly_revenue}")
-annual_revenue = int(weekly_revenue * WORKING_WEEKS_PER_YEAR)
-print(f"Annual revenue is ${annual_revenue}")
-weeks_to_goal = int(savings_goal / weekly_revenue)
-print(f"Weeks to goal is {weeks_to_goal}")
+weekly_revenue = float(hourly_rate) * float(weekly_hours)
+print(f"Weekly revenue is ${weekly_revenue:.2f}")
+annual_revenue = float(weekly_revenue) * WORKING_WEEKS_PER_YEAR
+print(f"Annual revenue is ${annual_revenue:.2f}")
+weeks_to_goal = float(savings_goal) / float(weekly_revenue)
+print(f"Weeks to goal is {weeks_to_goal:.1f}")
 
 # TODO 4: Print the clean, formatted financial report
 # Ensure your output format precisely matches the target output structure.
@@ -48,7 +48,7 @@ print(f"Weeks to goal is {weeks_to_goal}")
 #
 # Target layout:
 # =========================================
-#        WEEKLY FINANCIAL PROJECTOR       
+#        WEEKLY FINANCIAL PROJECTOR
 # =========================================
 # Service Type:       [hustle_name]
 # Hourly Rate:        $[hourly_rate]/hr
